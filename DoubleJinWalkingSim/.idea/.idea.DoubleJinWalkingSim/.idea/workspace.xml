@@ -44,15 +44,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/lightCollider.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="15">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding>
-                <marker date="1538764693079" expanded="false" signature="6:78" ph="..." />
-                <marker date="1538764693079" expanded="true" signature="122:1096" ph="{...}" />
-                <marker date="1538764693079" expanded="true" signature="241:448" ph="/* NOTES ... */" />
-                <marker date="1538764693079" expanded="true" signature="466:542" ph="{...}" />
-                <marker date="1538764693079" expanded="true" signature="582:838" ph="{...}" />
-                <marker date="1538764693079" expanded="true" signature="672:833" ph="{...}" />
-                <marker date="1538764693079" expanded="true" signature="875:1093" ph="{...}" />
+                <marker date="1538852077672" expanded="false" signature="6:78" ph="..." />
+                <marker date="1538852077672" expanded="true" signature="122:1096" ph="{...}" />
+                <marker date="1538852077672" expanded="true" signature="241:448" ph="/* NOTES ... */" />
+                <marker date="1538852077672" expanded="true" signature="466:542" ph="{...}" />
+                <marker date="1538852077672" expanded="true" signature="582:838" ph="{...}" />
+                <marker date="1538852077672" expanded="true" signature="672:833" ph="{...}" />
+                <marker date="1538852077672" expanded="true" signature="875:1093" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -83,13 +84,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,7 +151,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="960000" />
+    <option name="totallyTimeSpent" value="991000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -162,9 +163,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="171" y="97" width="860" height="551" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="706" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15024233" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -176,7 +177,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.85406697" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3790186" />
       <window_info anchor="bottom" id="Unity" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
@@ -195,6 +196,32 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -215,15 +242,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/scripts/lightCollider.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="15">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
-            <marker date="1538764693079" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538764693079" expanded="true" signature="122:1096" ph="{...}" />
-            <marker date="1538764693079" expanded="true" signature="241:448" ph="/* NOTES ... */" />
-            <marker date="1538764693079" expanded="true" signature="466:542" ph="{...}" />
-            <marker date="1538764693079" expanded="true" signature="582:838" ph="{...}" />
-            <marker date="1538764693079" expanded="true" signature="672:833" ph="{...}" />
-            <marker date="1538764693079" expanded="true" signature="875:1093" ph="{...}" />
+            <marker date="1538852077672" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538852077672" expanded="true" signature="122:1096" ph="{...}" />
+            <marker date="1538852077672" expanded="true" signature="241:448" ph="/* NOTES ... */" />
+            <marker date="1538852077672" expanded="true" signature="466:542" ph="{...}" />
+            <marker date="1538852077672" expanded="true" signature="582:838" ph="{...}" />
+            <marker date="1538852077672" expanded="true" signature="672:833" ph="{...}" />
+            <marker date="1538852077672" expanded="true" signature="875:1093" ph="{...}" />
           </folding>
         </state>
       </provider>
