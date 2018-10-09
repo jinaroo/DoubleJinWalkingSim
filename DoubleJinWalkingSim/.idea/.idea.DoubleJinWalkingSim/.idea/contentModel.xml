@@ -75,6 +75,13 @@
             </e>
           </e>
         </e>
+        <e p="BOXOPHOBIC" t="Include">
+          <e p="Skybox Cubemap Extended" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="Skybox Cubemap Extended.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Free Low Poly Toon Nature" t="Include">
           <e p="Readme.txt" t="Include" />
           <e p="Standard Assets" t="Include">

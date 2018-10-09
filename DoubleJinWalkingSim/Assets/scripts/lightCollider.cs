@@ -34,6 +34,6 @@ public class lightCollider : MonoBehaviour
 		isPlayerInTrigger = false;
 		Debug.Log("Player is not in lightTrigger.");
 		//lampLight.GetComponent<Light>().enabled = false;
-		lampLight.SetActive(false);
+		//lampLight.SetActive(false);
 	}	
 }
