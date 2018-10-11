@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest.unity" afterDir="false" />
-    </list>
+    <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +22,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="321" />
-          <entry key="txt" value="74" />
+          <entry key="cs" value="322" />
+          <entry key="txt" value="185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="321" />
-          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="C#" value="322" />
+          <entry key="PLAIN_TEXT" value="185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -223,7 +219,7 @@
       <workItem from="1538766112513" duration="597000" />
       <workItem from="1539222181315" duration="106000" />
       <workItem from="1539263107945" duration="399000" />
-      <workItem from="1539264203296" duration="2493000" />
+      <workItem from="1539264203296" duration="2761000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1538765004195</created>
@@ -239,11 +235,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538975638108</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added prefab folder with plant and firefly prefabs; made lightShaderControl script; rearranged objects in scene">
+      <created>1539267613320</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539267613320</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4777000" />
+    <option name="totallyTimeSpent" value="5045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,7 +273,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3790186" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3790186" />
       <window_info anchor="bottom" id="Unity" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
@@ -321,7 +324,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test Git" />
     <MESSAGE value="updated particle system and fps speed in scene &quot;SoWired&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated particle system and fps speed in scene &quot;SoWired&quot;" />
+    <MESSAGE value="added prefab folder with plant and firefly prefabs; made lightShaderControl script; rearranged objects in scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="added prefab folder with plant and firefly prefabs; made lightShaderControl script; rearranged objects in scene" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -335,6 +339,23 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Free Low Poly Toon Nature/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/lightCollider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <marker date="1539048818780" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539048818780" expanded="true" signature="122:1098" ph="{...}" />
+            <marker date="1539048818780" expanded="true" signature="241:448" ph="/* NOTES ... */" />
+            <marker date="1539048818780" expanded="true" signature="466:542" ph="{...}" />
+            <marker date="1539048818780" expanded="true" signature="582:838" ph="{...}" />
+            <marker date="1539048818780" expanded="true" signature="672:833" ph="{...}" />
+            <marker date="1539048818780" expanded="true" signature="875:1095" ph="{...}" />
+            <marker date="1539048818780" expanded="true" signature="1010:1092" ph="/* lampLight.GetComponent&lt;Light&gt;().enabled = false; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ArtTest/Colr/Scripts/ScreenColorTransition.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-518">
@@ -354,23 +375,6 @@
             <marker date="1539224761208" expanded="true" signature="1315:1371" ph="{...}" />
             <marker date="1539224761208" expanded="true" signature="1416:1469" ph="{...}" />
             <marker date="1539224761208" expanded="true" signature="1541:1661" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/lightCollider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <marker date="1539048818780" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539048818780" expanded="true" signature="122:1098" ph="{...}" />
-            <marker date="1539048818780" expanded="true" signature="241:448" ph="/* NOTES ... */" />
-            <marker date="1539048818780" expanded="true" signature="466:542" ph="{...}" />
-            <marker date="1539048818780" expanded="true" signature="582:838" ph="{...}" />
-            <marker date="1539048818780" expanded="true" signature="672:833" ph="{...}" />
-            <marker date="1539048818780" expanded="true" signature="875:1095" ph="{...}" />
-            <marker date="1539048818780" expanded="true" signature="1010:1092" ph="/* lampLight.GetComponent&lt;Light&gt;().enabled = false; ... */" />
           </folding>
         </state>
       </provider>
