@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="" />
+    <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +35,10 @@
     <session id="-1017785986">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -51,19 +55,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/lightCollider.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="112">
               <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Free Low Poly Toon Nature/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <marker date="1538852077672" expanded="false" signature="6:78" ph="..." />
-                <marker date="1538852077672" expanded="true" signature="122:1096" ph="{...}" />
-                <marker date="1538852077672" expanded="true" signature="241:448" ph="/* NOTES ... */" />
-                <marker date="1538852077672" expanded="true" signature="466:542" ph="{...}" />
-                <marker date="1538852077672" expanded="true" signature="582:838" ph="{...}" />
-                <marker date="1538852077672" expanded="true" signature="672:833" ph="{...}" />
-                <marker date="1538852077672" expanded="true" signature="875:1093" ph="{...}" />
+                <marker date="1538763014028" expanded="false" signature="6:32" ph="..." />
+                <marker date="1538763014028" expanded="true" signature="76:1346" ph="{...}" />
+                <marker date="1538763014028" expanded="true" signature="194:1344" ph="{...}" />
+                <marker date="1538763014028" expanded="true" signature="209:324" ph="/// Provides a shader property that is set in the inspector ... " />
+                <marker date="1538763014028" expanded="true" signature="433:833" ph="{...}" />
+                <marker date="1538763014028" expanded="true" signature="550:635" ph="{...}" />
+                <marker date="1538763014028" expanded="true" signature="649:742" ph="/* Disable the image effect if the shader can't ... */" />
+                <marker date="1538763014028" expanded="true" signature="871:1171" ph="{...}" />
+                <marker date="1538763014028" expanded="true" signature="897:1161" ph="{...}" />
+                <marker date="1538763014028" expanded="true" signature="951:1112" ph="{...}" />
+                <marker date="1538763014028" expanded="true" signature="1216:1338" ph="{...}" />
+                <marker date="1538763014028" expanded="true" signature="1254:1328" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -75,6 +93,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Free Low Poly Toon Nature/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/lightCollider.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -84,23 +103,23 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="213" />
-    <option name="y" value="121" />
+    <option name="x" value="212" />
+    <option name="y" value="120" />
     <option name="width" value="1075" />
-    <option name="height" value="689" />
+    <option name="height" value="690" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,6 +168,7 @@
       <workItem from="1538764334395" duration="54000" />
       <workItem from="1538764975686" duration="260000" />
       <workItem from="1538766112513" duration="597000" />
+      <workItem from="1539222181315" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1538765004195</created>
@@ -168,7 +188,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1270000" />
+    <option name="totallyTimeSpent" value="1376000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -180,9 +200,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="706" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15024233" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.152349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -194,7 +214,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3790186" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3787234" />
       <window_info anchor="bottom" id="Unity" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
@@ -260,16 +280,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/scripts/lightCollider.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="112">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Free Low Poly Toon Nature/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <marker date="1538852077672" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538852077672" expanded="true" signature="122:1096" ph="{...}" />
-            <marker date="1538852077672" expanded="true" signature="241:448" ph="/* NOTES ... */" />
-            <marker date="1538852077672" expanded="true" signature="466:542" ph="{...}" />
-            <marker date="1538852077672" expanded="true" signature="582:838" ph="{...}" />
-            <marker date="1538852077672" expanded="true" signature="672:833" ph="{...}" />
-            <marker date="1538852077672" expanded="true" signature="875:1093" ph="{...}" />
+            <marker date="1538763014028" expanded="false" signature="6:32" ph="..." />
+            <marker date="1538763014028" expanded="true" signature="76:1346" ph="{...}" />
+            <marker date="1538763014028" expanded="true" signature="194:1344" ph="{...}" />
+            <marker date="1538763014028" expanded="true" signature="209:324" ph="/// Provides a shader property that is set in the inspector ... " />
+            <marker date="1538763014028" expanded="true" signature="433:833" ph="{...}" />
+            <marker date="1538763014028" expanded="true" signature="550:635" ph="{...}" />
+            <marker date="1538763014028" expanded="true" signature="649:742" ph="/* Disable the image effect if the shader can't ... */" />
+            <marker date="1538763014028" expanded="true" signature="871:1171" ph="{...}" />
+            <marker date="1538763014028" expanded="true" signature="897:1161" ph="{...}" />
+            <marker date="1538763014028" expanded="true" signature="951:1112" ph="{...}" />
+            <marker date="1538763014028" expanded="true" signature="1216:1338" ph="{...}" />
+            <marker date="1538763014028" expanded="true" signature="1254:1328" ph="{...}" />
           </folding>
         </state>
       </provider>
