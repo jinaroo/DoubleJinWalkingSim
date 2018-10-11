@@ -6,10 +6,12 @@ public class lightController : MonoBehaviour
 {
 
 	public GameObject plantLight;
+	public GameObject lightSparks;
 
 	// Use this for initialization
 	void Start () {
 		plantLight.SetActive(false);
+		lightSparks.SetActive(false);
 	}
 
 	private void OnTriggerEnter(Collider other)
@@ -18,6 +20,7 @@ public class lightController : MonoBehaviour
 		{
 			Debug.Log("Player is in trigger!");
 			plantLight.SetActive(true);
+			lightSparks.SetActive(true);
 		}
 	}
 
