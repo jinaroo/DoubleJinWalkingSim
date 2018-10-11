@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lightShaderControl : MonoBehaviour
+public class lightController : MonoBehaviour
 {
 
 	public GameObject plantLight;
