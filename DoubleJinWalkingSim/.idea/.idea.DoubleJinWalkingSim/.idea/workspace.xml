@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestGit.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,23 +15,23 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="8" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="337" />
-          <entry key="txt" value="325" />
+          <entry key="cs" value="446" />
+          <entry key="txt" value="382" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="337" />
-          <entry key="PLAIN_TEXT" value="325" />
+          <entry key="C#" value="446" />
+          <entry key="PLAIN_TEXT" value="382" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -99,17 +98,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/lightController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="300">
+              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
-                <marker date="1539270457522" expanded="false" signature="6:78" ph="..." />
-                <marker date="1539270457522" expanded="true" signature="124:639" ph="{...}" />
-                <marker date="1539270457522" expanded="true" signature="207:242" ph="{...}" />
-                <marker date="1539270457522" expanded="true" signature="288:406" ph="{...}" />
-                <marker date="1539270457522" expanded="true" signature="325:403" ph="{...}" />
-                <marker date="1539270457522" expanded="true" signature="451:576" ph="{...}" />
-                <marker date="1539270457522" expanded="true" signature="488:573" ph="{...}" />
-                <marker date="1539270457522" expanded="true" signature="630:637" ph="{...}" />
+                <marker date="1539272657072" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539272657072" expanded="true" signature="124:735" ph="{...}" />
+                <marker date="1539272657072" expanded="true" signature="239:306" ph="{...}" />
+                <marker date="1539272657072" expanded="true" signature="352:502" ph="{...}" />
+                <marker date="1539272657072" expanded="true" signature="389:499" ph="{...}" />
+                <marker date="1539272657072" expanded="true" signature="547:672" ph="{...}" />
+                <marker date="1539272657072" expanded="true" signature="584:669" ph="{...}" />
+                <marker date="1539272657072" expanded="true" signature="726:733" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -208,6 +207,7 @@
       <workItem from="1539264203296" duration="3153000" />
       <workItem from="1539270392329" duration="31000" />
       <workItem from="1539270440901" duration="1351000" />
+      <workItem from="1539271904560" duration="1594000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1538765004195</created>
@@ -251,11 +251,25 @@
       <option name="project" value="LOCAL" />
       <updated>1539271374877</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added tree animation">
+      <created>1539271912844</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539271912844</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added spark particle effect to plants">
+      <created>1539273216966</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1539273216966</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6819000" />
+    <option name="totallyTimeSpent" value="8413000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,8 +282,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="706" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16962843" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1720517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -336,7 +351,9 @@
     <MESSAGE value="organized hierarchy" />
     <MESSAGE value="added glowing flower prefab and deleted lightCollider script" />
     <MESSAGE value="changed hierarchy so that plants are all grouped together" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed hierarchy so that plants are all grouped together" />
+    <MESSAGE value="added tree animation" />
+    <MESSAGE value="added spark particle effect to plants" />
+    <option name="LAST_COMMIT_MESSAGE" value="added spark particle effect to plants" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -350,20 +367,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Free Low Poly Toon Nature/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/lightShaderControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/lightShaderControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/lightCollider.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/lightCollider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ParticleLight/Read Me/Read Me.txt" />
     <entry file="file://$PROJECT_DIR$/Assets/ArtTest/Colr/Scripts/ScreenColorTransition.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -387,29 +396,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ParticleLight/Read Me/Read Me.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="124" selection-start-line="2" selection-start-column="124" selection-end-line="2" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/lightController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="300">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
-            <marker date="1539270457522" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539270457522" expanded="true" signature="124:639" ph="{...}" />
-            <marker date="1539270457522" expanded="true" signature="207:242" ph="{...}" />
-            <marker date="1539270457522" expanded="true" signature="288:406" ph="{...}" />
-            <marker date="1539270457522" expanded="true" signature="325:403" ph="{...}" />
-            <marker date="1539270457522" expanded="true" signature="451:576" ph="{...}" />
-            <marker date="1539270457522" expanded="true" signature="488:573" ph="{...}" />
-            <marker date="1539270457522" expanded="true" signature="630:637" ph="{...}" />
+            <marker date="1539272657072" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539272657072" expanded="true" signature="124:735" ph="{...}" />
+            <marker date="1539272657072" expanded="true" signature="239:306" ph="{...}" />
+            <marker date="1539272657072" expanded="true" signature="352:502" ph="{...}" />
+            <marker date="1539272657072" expanded="true" signature="389:499" ph="{...}" />
+            <marker date="1539272657072" expanded="true" signature="547:672" ph="{...}" />
+            <marker date="1539272657072" expanded="true" signature="584:669" ph="{...}" />
+            <marker date="1539272657072" expanded="true" signature="726:733" ph="{...}" />
           </folding>
         </state>
       </provider>
