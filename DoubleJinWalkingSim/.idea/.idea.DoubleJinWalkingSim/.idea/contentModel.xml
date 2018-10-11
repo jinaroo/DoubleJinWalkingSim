@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Jin\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Jin\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_DoubleJinWalkingSim.-827659150.00" t="ExcludeRecursive" />
-    <e p="D:\unity\work\DoubleJinWalkingSim\DoubleJinWalkingSim" t="IncludeRecursive">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_DoubleJinWalkingSim.1925572876.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -75,6 +75,88 @@
             </e>
           </e>
         </e>
+        <e p="ArtTest" t="Include">
+          <e p="Colr" t="Include">
+            <e p="DemoScenes" t="Include">
+              <e p="Standard Assets" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="ImageEffects" t="Include">
+                    <e p="BloomAndFlaresEditor.cs" t="Include" />
+                    <e p="BloomEditor.cs" t="Include" />
+                    <e p="ColorCorrectionCurvesEditor.cs" t="Include" />
+                    <e p="DepthOfFieldEditor.cs" t="Include" />
+                    <e p="VignetteAndChromaticAberrationEditor.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Effects" t="Include">
+                  <e p="ImageEffects" t="Include">
+                    <e p="Scripts" t="Include">
+                      <e p="Bloom.cs" t="Include" />
+                      <e p="BloomAndFlares.cs" t="Include" />
+                      <e p="BloomOptimized.cs" t="Include" />
+                      <e p="ColorCorrectionCurves.cs" t="Include" />
+                      <e p="DepthOfField.cs" t="Include" />
+                      <e p="GlobalFog.cs" t="Include" />
+                      <e p="ImageEffectBase.cs" t="Include" />
+                      <e p="ImageEffects.cs" t="Include" />
+                      <e p="PostEffectsBase.cs" t="Include" />
+                      <e p="PostEffectsHelper.cs" t="Include" />
+                      <e p="ScreenOverlay.cs" t="Include" />
+                      <e p="VignetteAndChromaticAberration.cs" t="Include" />
+                    </e>
+                    <e p="Shaders" t="Include">
+                      <e p="_BloomAndFlares" t="Include">
+                        <e p="Blend.shader" t="Include" />
+                        <e p="BlendForBloom.shader" t="Include" />
+                        <e p="BlendOneOne.shader" t="Include" />
+                        <e p="BlurAndFlares.shader" t="Include" />
+                        <e p="BrightPassFilter.shader" t="Include" />
+                        <e p="BrightPassFilter2.shader" t="Include" />
+                        <e p="LensFlareCreate.shader" t="Include" />
+                        <e p="MobileBloom.shader" t="Include" />
+                        <e p="MobileBlur.shader" t="Include" />
+                        <e p="MultiPassHollywoodFlares.shader" t="Include" />
+                        <e p="SeparableBlurPlus.shader" t="Include" />
+                        <e p="VignetteShader.shader" t="Include" />
+                      </e>
+                      <e p="_DepthOfField" t="Include">
+                        <e p="Bokeh34.shader" t="Include" />
+                        <e p="DepthOfField34.shader" t="Include" />
+                        <e p="DepthOfFieldDX11.shader" t="Include" />
+                        <e p="DepthOfFieldScatter.shader" t="Include" />
+                        <e p="SeparableBlur.shader" t="Include" />
+                        <e p="SeparableWeightedBlurDof34.shader" t="Include" />
+                        <e p="TiltShiftHdrLensBlur.shader" t="Include" />
+                      </e>
+                      <e p="BlendModesOverlay.shader" t="Include" />
+                      <e p="ChromaticAberrationShader.shader" t="Include" />
+                      <e p="ColorCorrectionCurves.shader" t="Include" />
+                      <e p="ColorCorrectionCurvesSimple.shader" t="Include" />
+                      <e p="ColorCorrectionEffect.shader" t="Include" />
+                      <e p="ColorCorrectionSelective.shader" t="Include" />
+                      <e p="GlobalFog.shader" t="Include" />
+                      <e p="VignettingShader.shader" t="Include" />
+                    </e>
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="Editor" t="Include">
+              <e p="GradientSkyboxEditor.cs" t="Include" />
+              <e p="MasterShaderEditor.cs" t="Include" />
+              <e p="MasterShaderLocalSpaceEditor.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="ScreenColorTransition.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="GradientSkybox.shader" t="Include" />
+              <e p="MasterShader.shader" t="Include" />
+              <e p="MasterShaderLocalSpace.shader" t="Include" />
+              <e p="ScreenColorTransition.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="BOXOPHOBIC" t="Include">
           <e p="Skybox Cubemap Extended" t="Include">
             <e p="Shaders" t="Include">
@@ -84,35 +166,6 @@
         </e>
         <e p="Free Low Poly Toon Nature" t="Include">
           <e p="Readme.txt" t="Include" />
-          <e p="Standard Assets" t="Include">
-            <e p="Editor" t="Include">
-              <e p="ImageEffects" t="Include">
-                <e p="AntialiasingEditor.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Effects" t="Include">
-              <e p="ImageEffects" t="Include">
-                <e p="Scripts" t="Include">
-                  <e p="Antialiasing.cs" t="Include" />
-                  <e p="ImageEffectBase.cs" t="Include" />
-                  <e p="ImageEffects.cs" t="Include" />
-                  <e p="PostEffectsBase.cs" t="Include" />
-                  <e p="PostEffectsHelper.cs" t="Include" />
-                </e>
-                <e p="Shaders" t="Include">
-                  <e p="_Antialiasing" t="Include">
-                    <e p="DLAA.shader" t="Include" />
-                    <e p="FXAA2.shader" t="Include" />
-                    <e p="FXAA3Console.shader" t="Include" />
-                    <e p="FXAAPreset2.shader" t="Include" />
-                    <e p="FXAAPreset3.shader" t="Include" />
-                    <e p="NFAA.shader" t="Include" />
-                    <e p="SSAA.shader" t="Include" />
-                  </e>
-                </e>
-              </e>
-            </e>
-          </e>
         </e>
         <e p="ProCore" t="Include">
           <e p="ProBuilder" t="Include">
@@ -289,6 +342,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="lightCollider.cs" t="Include" />
+          <e p="lightShaderControl.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
