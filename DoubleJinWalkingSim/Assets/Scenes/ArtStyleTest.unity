@@ -6970,9 +6970,9 @@ MonoBehaviour:
   tweakMode: 0
   screenBlendMode: 1
   hdr: 0
-  sepBlurSpread: 3.55
+  sepBlurSpread: 3.42
   useSrcAlphaAsMask: 0
-  bloomIntensity: 1
+  bloomIntensity: 1.01
   bloomThreshold: 0.36
   bloomBlurIterations: 2
   lensflares: 0
@@ -7010,7 +7010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visualizeFocus: 0
   focalLength: 1.44
-  focalSize: 1.19
+  focalSize: 1.32
   aperture: 0.7
   focalTransform: {fileID: 0}
   maxBlurSize: 2
@@ -15466,7 +15466,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2122642373}
   m_LocalRotation: {x: -0, y: 0.0007944796, z: -0, w: 0.99999976}
-  m_LocalPosition: {x: 0.24, y: 1, z: -4.69}
+  m_LocalPosition: {x: -3.46, y: 1, z: 1.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1138643623}
