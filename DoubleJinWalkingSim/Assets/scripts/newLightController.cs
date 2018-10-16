@@ -8,7 +8,6 @@ public class newLightController : MonoBehaviour
 	public GameObject plantLightChange;
 	public GameObject plantLightMax;
 	public GameObject lightSparks;
-	public Material LightChangeMaterial;
 	public float maxGlowAmount;
 	
 	private bool startGlow;
@@ -58,6 +57,7 @@ public class newLightController : MonoBehaviour
 		if (glowAmount >= maxGlowAmount)
 		{
 			startGlow = false;
+			glowAmount = 0f;
 			plantLightChange.SetActive(false);
 			plantLightMax.SetActive(true);
 		}

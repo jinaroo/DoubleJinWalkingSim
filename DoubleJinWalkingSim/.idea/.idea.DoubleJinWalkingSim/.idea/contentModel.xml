@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_DoubleJinWalkingSim.1925572876.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\Jin\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Jin\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_DoubleJinWalkingSim.-827659150.00" t="ExcludeRecursive" />
+    <e p="D:\unity\work\DoubleJinWalkingSim\DoubleJinWalkingSim" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -154,6 +154,51 @@
               <e p="MasterShader.shader" t="Include" />
               <e p="MasterShaderLocalSpace.shader" t="Include" />
               <e p="ScreenColorTransition.shader" t="Include" />
+            </e>
+          </e>
+          <e p="StylizedWater" t="Include">
+            <e p="_Demo" t="Include">
+              <e p="OrbitCamera.cs" t="Include" />
+            </e>
+            <e p="changelog.txt" t="Include" />
+            <e p="Effects" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="StylizedWater_Particle_Desktop.shader" t="Include" />
+                <e p="StylizedWater_Particle_Mobile.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="StylizedWaterCore.cs" t="Include" />
+                <e p="StylizedWaterInspector.cs" t="Include" />
+                <e p="SWS_NormalMapRenderer.shader" t="Include" />
+                <e p="SWS_ShaderMapRenderer.shader" t="Include" />
+              </e>
+              <e p="EnableDepthBuffer.cs" t="Include" />
+              <e p="Resources" t="Include">
+                <e p="StylizedWaterReflectionBlur.shader" t="Include" />
+              </e>
+              <e p="StylizedWater.cs" t="Include" />
+              <e p="StylizedWaterBlur.cs" t="Include" />
+              <e p="StylizedWaterRenderer.cs" t="Include" />
+              <e p="StylizedWaterResources.cs" t="Include" />
+              <e p="StylizedWaterShadowCaster.cs" t="Include" />
+              <e p="StylizedWaterUtilities.cs" t="Include" />
+              <e p="Textures" t="Include">
+                <e p="Heightmap" t="Include">
+                  <e p="Readme.txt" t="Include" />
+                </e>
+                <e p="Intersection" t="Include">
+                  <e p="Readme.txt" t="Include" />
+                </e>
+                <e p="Normals" t="Include">
+                  <e p="Readme.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="StylizedWater_Desktop.shader" t="Include" />
+              <e p="StylizedWater_Mobile.shader" t="Include" />
             </e>
           </e>
         </e>
@@ -342,6 +387,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="lightController.cs" t="Include" />
+          <e p="newLightController.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">

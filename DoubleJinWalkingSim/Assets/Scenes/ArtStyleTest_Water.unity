@@ -5258,6 +5258,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 23601196707584298, guid: 80203967bd6c62643808bd6e8bc09766,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb421c199215c6046b6b7bd268ab0ffe, type: 2}
+    - target: {fileID: 23385221974803004, guid: 80203967bd6c62643808bd6e8bc09766,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 297585c51e5b51e40afee4367c3aa999, type: 2}
     m_RemovedComponents:
     - {fileID: 114135351073406748, guid: 80203967bd6c62643808bd6e8bc09766, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 80203967bd6c62643808bd6e8bc09766, type: 2}
@@ -5297,7 +5307,6 @@ MonoBehaviour:
   plantLightChange: {fileID: 885571445}
   plantLightMax: {fileID: 885571444}
   lightSparks: {fileID: 0}
-  LightChangeMaterial: {fileID: 0}
   maxGlowAmount: 1.4
 --- !u!1 &956406393
 GameObject:
