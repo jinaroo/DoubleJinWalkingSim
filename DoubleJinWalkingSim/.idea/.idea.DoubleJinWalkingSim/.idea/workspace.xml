@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Water.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Water.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,13 +26,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="446" />
-          <entry key="txt" value="567" />
+          <entry key="txt" value="580" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="446" />
-          <entry key="PLAIN_TEXT" value="567" />
+          <entry key="PLAIN_TEXT" value="580" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -207,7 +205,7 @@
       <workItem from="1539270392329" duration="31000" />
       <workItem from="1539270440901" duration="1351000" />
       <workItem from="1539271904560" duration="1594000" />
-      <workItem from="1539867841984" duration="1469000" />
+      <workItem from="1539867841984" duration="1804000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1538765004195</created>
@@ -293,11 +291,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539869355339</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added terrain">
+      <created>1539870243388</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1539870243388</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10123000" />
+    <option name="totallyTimeSpent" value="10458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,7 +389,8 @@
     <MESSAGE value="made newLightUpPlant prefab and added one to scene; made all plants visible" />
     <MESSAGE value="added free low poly pack (axeyworks)" />
     <MESSAGE value="fixed plant prefab" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed plant prefab" />
+    <MESSAGE value="added terrain" />
+    <option name="LAST_COMMIT_MESSAGE" value="added terrain" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
