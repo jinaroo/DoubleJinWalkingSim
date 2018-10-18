@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Water.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Water.unity" afterDir="false" />
+    <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="added sounds folder and some music">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +14,7 @@
     <session id="485376689">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.2" value="2" />
@@ -26,13 +26,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="446" />
-          <entry key="txt" value="580" />
+          <entry key="txt" value="636" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="446" />
-          <entry key="PLAIN_TEXT" value="580" />
+          <entry key="PLAIN_TEXT" value="636" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -93,7 +93,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/newLightController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-677">
+            <state>
               <folding>
                 <marker date="1539732252380" expanded="false" signature="6:78" ph="..." />
                 <marker date="1539732252380" expanded="true" signature="127:1506" ph="{...}" />
@@ -134,7 +134,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="707" />
@@ -205,7 +205,7 @@
       <workItem from="1539270392329" duration="31000" />
       <workItem from="1539270440901" duration="1351000" />
       <workItem from="1539271904560" duration="1594000" />
-      <workItem from="1539867841984" duration="1804000" />
+      <workItem from="1539867841984" duration="2377000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1538765004195</created>
@@ -298,11 +298,25 @@
       <option name="project" value="LOCAL" />
       <updated>1539870243388</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added invisible walls">
+      <created>1539871287802</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1539871287802</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added sounds folder and some music">
+      <created>1539872456289</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1539872456289</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10458000" />
+    <option name="totallyTimeSpent" value="11031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,7 +404,9 @@
     <MESSAGE value="added free low poly pack (axeyworks)" />
     <MESSAGE value="fixed plant prefab" />
     <MESSAGE value="added terrain" />
-    <option name="LAST_COMMIT_MESSAGE" value="added terrain" />
+    <MESSAGE value="added invisible walls" />
+    <MESSAGE value="added sounds folder and some music" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sounds folder and some music" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -432,7 +448,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/newLightController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-677">
+        <state>
           <folding>
             <marker date="1539732252380" expanded="false" signature="6:78" ph="..." />
             <marker date="1539732252380" expanded="true" signature="127:1506" ph="{...}" />
