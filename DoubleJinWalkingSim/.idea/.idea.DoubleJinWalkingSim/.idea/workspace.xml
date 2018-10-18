@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="added spark particle effect to plants">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestGit.meta" beforeDir="false" />
+    <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,31 +18,32 @@
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="446" />
-          <entry key="txt" value="382" />
+          <entry key="txt" value="417" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="446" />
-          <entry key="PLAIN_TEXT" value="382" />
+          <entry key="PLAIN_TEXT" value="417" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="3" />
+          <entry key="cs" value="4" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="3" />
+          <entry key="C#" value="4" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -70,7 +71,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/lightController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -89,6 +90,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/newLightController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-677">
+              <folding>
+                <marker date="1539732252380" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539732252380" expanded="true" signature="127:1506" ph="{...}" />
+                <marker date="1539732252380" expanded="true" signature="407:551" ph="{...}" />
+                <marker date="1539732252380" expanded="true" signature="597:958" ph="{...}" />
+                <marker date="1539732252380" expanded="true" signature="634:955" ph="{...}" />
+                <marker date="1539732252380" expanded="true" signature="1003:1128" ph="{...}" />
+                <marker date="1539732252380" expanded="true" signature="1040:1125" ph="{...}" />
+                <marker date="1539732252380" expanded="true" signature="1180:1504" ph="{...}" />
+                <marker date="1539732252380" expanded="true" signature="1200:1343" ph="{...}" />
+                <marker date="1539732252380" expanded="true" signature="1379:1501" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -96,6 +117,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ArtTest/Colr/Scripts/ScreenColorTransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/newLightController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/lightController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -122,12 +144,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -183,6 +205,7 @@
       <workItem from="1539270392329" duration="31000" />
       <workItem from="1539270440901" duration="1351000" />
       <workItem from="1539271904560" duration="1594000" />
+      <workItem from="1539867841984" duration="250000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1538765004195</created>
@@ -240,11 +263,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539273216966</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added flare component to plantlight">
+      <created>1539868080981</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1539868080981</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8654000" />
+    <option name="totallyTimeSpent" value="8904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -256,10 +286,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="706" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="707" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1914378" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19466881" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -271,7 +301,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" visible="true" weight="0.3790186" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" visible="true" weight="0.3783784" />
       <window_info anchor="bottom" id="Unity" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
@@ -328,7 +358,8 @@
     <MESSAGE value="changed hierarchy so that plants are all grouped together" />
     <MESSAGE value="added tree animation" />
     <MESSAGE value="added spark particle effect to plants" />
-    <option name="LAST_COMMIT_MESSAGE" value="added spark particle effect to plants" />
+    <MESSAGE value="added flare component to plantlight" />
+    <option name="LAST_COMMIT_MESSAGE" value="added flare component to plantlight" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -364,6 +395,24 @@
             <marker date="1539272657072" expanded="true" signature="547:672" ph="{...}" />
             <marker date="1539272657072" expanded="true" signature="584:669" ph="{...}" />
             <marker date="1539272657072" expanded="true" signature="726:733" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/newLightController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <folding>
+            <marker date="1539732252380" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539732252380" expanded="true" signature="127:1506" ph="{...}" />
+            <marker date="1539732252380" expanded="true" signature="407:551" ph="{...}" />
+            <marker date="1539732252380" expanded="true" signature="597:958" ph="{...}" />
+            <marker date="1539732252380" expanded="true" signature="634:955" ph="{...}" />
+            <marker date="1539732252380" expanded="true" signature="1003:1128" ph="{...}" />
+            <marker date="1539732252380" expanded="true" signature="1040:1125" ph="{...}" />
+            <marker date="1539732252380" expanded="true" signature="1180:1504" ph="{...}" />
+            <marker date="1539732252380" expanded="true" signature="1200:1343" ph="{...}" />
+            <marker date="1539732252380" expanded="true" signature="1379:1501" ph="{...}" />
           </folding>
         </state>
       </provider>
