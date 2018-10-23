@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestGit.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +14,7 @@
     <session id="485376689">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.2" value="2" />
@@ -35,13 +28,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="713" />
-          <entry key="txt" value="815" />
+          <entry key="txt" value="838" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="713" />
-          <entry key="PLAIN_TEXT" value="815" />
+          <entry key="PLAIN_TEXT" value="838" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -102,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/newLightController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-588">
               <folding>
                 <marker date="1539732252380" expanded="false" signature="6:78" ph="..." />
                 <marker date="1539732252380" expanded="true" signature="127:1506" ph="{...}" />
@@ -239,7 +232,7 @@
       <workItem from="1539875061314" duration="2118000" />
       <workItem from="1540093987756" duration="172000" />
       <workItem from="1540138551669" duration="246000" />
-      <workItem from="1540299914213" duration="535000" />
+      <workItem from="1540299914213" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1538765004195</created>
@@ -381,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539878404785</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="deleted terrain 1 and 2">
+      <created>1540302727444</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1540302727444</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14980000" />
+    <option name="totallyTimeSpent" value="15854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,7 +397,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="706" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="706" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21728595" />
@@ -481,7 +481,8 @@
     <MESSAGE value="made new soundEffectController script and added musicNote collider" />
     <MESSAGE value="fixed small problem with flare particle" />
     <MESSAGE value="few small changes with walls; added mountain" />
-    <option name="LAST_COMMIT_MESSAGE" value="few small changes with walls; added mountain" />
+    <MESSAGE value="deleted terrain 1 and 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted terrain 1 and 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -523,7 +524,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/newLightController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-588">
           <folding>
             <marker date="1539732252380" expanded="false" signature="6:78" ph="..." />
             <marker date="1539732252380" expanded="true" signature="127:1506" ph="{...}" />
