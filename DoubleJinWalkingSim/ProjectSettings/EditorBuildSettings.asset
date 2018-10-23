@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ArtStyleTest.unity
     guid: 3b3a2eea6ee5ab74aab91d828cab97ef
+  - enabled: 1
+    path: Assets/Scenes/ArtStyleTest_Water.unity
+    guid: 5f71cf03e9e5d0a419da7809f142cc88
   m_configObjects: {}
