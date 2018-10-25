@@ -4,8 +4,7 @@
     <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Water.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Water.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/soundEffectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/soundEffectController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestGit.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,14 +29,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="861" />
-          <entry key="txt" value="1122" />
+          <entry key="cs" value="865" />
+          <entry key="txt" value="1146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="861" />
-          <entry key="PLAIN_TEXT" value="1122" />
+          <entry key="C#" value="865" />
+          <entry key="PLAIN_TEXT" value="1146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/newLightController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -115,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/soundEffectController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="202">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
               <folding>
                 <marker date="1540480257962" expanded="false" signature="6:78" ph="..." />
                 <marker date="1540480257962" expanded="true" signature="130:385" ph="{...}" />
@@ -134,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="43">
               <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
               <folding>
                 <marker date="1540473790914" expanded="false" signature="6:78" ph="..." />
@@ -188,6 +187,8 @@
     <findStrings>
       <find>run</find>
       <find>runkey</find>
+      <find>jump</find>
+      <find>`</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -296,7 +297,7 @@
       <workItem from="1540138551669" duration="246000" />
       <workItem from="1540299914213" duration="1409000" />
       <workItem from="1540315778467" duration="442000" />
-      <workItem from="1540473690610" duration="2836000" />
+      <workItem from="1540473690610" duration="4207000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1538765004195</created>
@@ -480,11 +481,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540478971969</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added musicbox colliders">
+      <created>1540480596239</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1540480596239</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19132000" />
+    <option name="totallyTimeSpent" value="20503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,7 +505,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="706" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22374798" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -560,7 +567,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated particle system and fps speed in scene &quot;SoWired&quot;" />
     <MESSAGE value="added prefab folder with plant and firefly prefabs; made lightShaderControl script; rearranged objects in scene" />
     <MESSAGE value="organized hierarchy" />
     <MESSAGE value="added glowing flower prefab and deleted lightCollider script" />
@@ -585,7 +591,8 @@
     <MESSAGE value="disabled running" />
     <MESSAGE value="updated audio sources" />
     <MESSAGE value="adjusted cave colliders and invisible walls; added some crystals" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusted cave colliders and invisible walls; added some crystals" />
+    <MESSAGE value="added musicbox colliders" />
+    <option name="LAST_COMMIT_MESSAGE" value="added musicbox colliders" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -608,9 +615,26 @@
     <entry file="file://$PROJECT_DIR$/Assets/ArtTest/Colr/Scripts/ScreenColorTransition.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/lightController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <marker date="1539272657072" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539272657072" expanded="true" signature="124:735" ph="{...}" />
+            <marker date="1539272657072" expanded="true" signature="239:306" ph="{...}" />
+            <marker date="1539272657072" expanded="true" signature="352:502" ph="{...}" />
+            <marker date="1539272657072" expanded="true" signature="389:499" ph="{...}" />
+            <marker date="1539272657072" expanded="true" signature="547:672" ph="{...}" />
+            <marker date="1539272657072" expanded="true" signature="584:669" ph="{...}" />
+            <marker date="1539272657072" expanded="true" signature="726:733" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="43">
           <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
           <folding>
             <marker date="1540473790914" expanded="false" signature="6:78" ph="..." />
@@ -657,6 +681,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/soundEffectController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <marker date="1540480257962" expanded="false" signature="6:78" ph="..." />
+            <marker date="1540480257962" expanded="true" signature="130:385" ph="{...}" />
+            <marker date="1540480257962" expanded="true" signature="216:223" ph="{...}" />
+            <marker date="1540480257962" expanded="true" signature="261:383" ph="{...}" />
+            <marker date="1540480257962" expanded="true" signature="309:377" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/newLightController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -671,37 +709,6 @@
             <marker date="1539732252380" expanded="true" signature="1180:1504" ph="{...}" />
             <marker date="1539732252380" expanded="true" signature="1200:1343" ph="{...}" />
             <marker date="1539732252380" expanded="true" signature="1379:1501" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/lightController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <marker date="1539272657072" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539272657072" expanded="true" signature="124:735" ph="{...}" />
-            <marker date="1539272657072" expanded="true" signature="239:306" ph="{...}" />
-            <marker date="1539272657072" expanded="true" signature="352:502" ph="{...}" />
-            <marker date="1539272657072" expanded="true" signature="389:499" ph="{...}" />
-            <marker date="1539272657072" expanded="true" signature="547:672" ph="{...}" />
-            <marker date="1539272657072" expanded="true" signature="584:669" ph="{...}" />
-            <marker date="1539272657072" expanded="true" signature="726:733" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/soundEffectController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <marker date="1540480257962" expanded="false" signature="6:78" ph="..." />
-            <marker date="1540480257962" expanded="true" signature="130:385" ph="{...}" />
-            <marker date="1540480257962" expanded="true" signature="216:223" ph="{...}" />
-            <marker date="1540480257962" expanded="true" signature="261:383" ph="{...}" />
-            <marker date="1540480257962" expanded="true" signature="309:377" ph="{...}" />
           </folding>
         </state>
       </provider>
