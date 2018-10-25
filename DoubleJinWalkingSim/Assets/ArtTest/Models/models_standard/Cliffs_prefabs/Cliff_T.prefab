@@ -10,6 +10,7 @@ GameObject:
   - component: {fileID: 403266}
   - component: {fileID: 3329774}
   - component: {fileID: 2389912}
+  - component: {fileID: 64317178324387164}
   m_Layer: 0
   m_Name: Cliff_T
   m_TagString: Untagged
@@ -23,9 +24,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137122}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0392609, y: 0.11669063, z: -5.922058}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.1517066, y: -0.17359789, z: -5.5076423}
+  m_LocalScale: {x: 0.659598, y: 0.38577306, z: 0.659598}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -83,3 +84,17 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 137122}
   m_IsPrefabAsset: 1
+--- !u!64 &64317178324387164
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137122}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300044, guid: a620c2ce8b83a6741b72ac2f240c10b8, type: 3}
