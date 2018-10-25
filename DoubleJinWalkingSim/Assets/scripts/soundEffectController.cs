@@ -18,8 +18,8 @@ public class soundEffectController : MonoBehaviour
 		{
 			isFirst = false;
 			musicNote.Play();
+			isFirst = true;
 		}
 		
-		isFirst = true;
 	}
 }
