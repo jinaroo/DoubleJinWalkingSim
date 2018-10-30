@@ -14759,9 +14759,9 @@ MonoBehaviour:
   reflectionFresnel: 2.54
   showReflection: 0
   reflectionRefraction: 0.006
-  waveSpeed: 0.75
+  waveSpeed: 0.25
   waveStrength: 0.029
-  waveDirectionXZ: {x: 1, y: 0, z: 0, w: 0}
+  waveDirectionXZ: {x: 1, y: 0, z: 0.2, w: 0}
   enableSecondaryWaves: 1
   customIntersection: {fileID: 0}
   customNormal: {fileID: 0}
@@ -14796,7 +14796,7 @@ MonoBehaviour:
   - Chaotic
   - Custom...
   waveHeightmapStyle: 0
-  waveSize: 0.1
+  waveSize: 1.5200002
   useCustomIntersection: 0
   useCustomNormals: 0
   useCustomHeightmap: 0
@@ -14853,10 +14853,10 @@ MonoBehaviour:
   usingSinglePassRendering: 0
   showLighting: 0
   showColors: 0
-  showSurface: 0
+  showSurface: 1
   showNormals: 0
   showIntersection: 0
-  showHighlights: 1
+  showHighlights: 0
   showDepth: 0
   showWaves: 0
   showAdvanced: 0

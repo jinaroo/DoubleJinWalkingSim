@@ -96,8 +96,8 @@ Material:
     - _UseIntersectionHighlight: 0
     - _WaveFoam: 0
     - _WaveHeight: 0.029
-    - _WaveSize: 0.1
-    - _Wavesspeed: 0.75
+    - _WaveSize: 1.5200002
+    - _Wavesspeed: 0.25
     - _Wavesstrength: 0
     - _Wavetint: -0.5
     - _Worldspacetiling: 1
@@ -107,4 +107,4 @@ Material:
     - _RimColor: {r: 1, g: 1, b: 1, a: 0.1254902}
     - _WaterColor: {r: 0.1176471, g: 0.6348885, b: 1, a: 0}
     - _WaterShallowColor: {r: 0.41911757, g: 1, b: 0.8798174, a: 1}
-    - _WaveDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _WaveDirection: {r: 1, g: 0, b: 0.2, a: 0}
