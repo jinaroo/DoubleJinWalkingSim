@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="added audio mixer">
+    <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewAudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NewAudioMixer.mixer" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,25 +28,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="865" />
-          <entry key="txt" value="1278" />
+          <entry key="cs" value="1014" />
+          <entry key="txt" value="1299" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="865" />
-          <entry key="PLAIN_TEXT" value="1278" />
+          <entry key="C#" value="1014" />
+          <entry key="PLAIN_TEXT" value="1299" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="6" />
+          <entry key="cs" value="7" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="6" />
+          <entry key="C#" value="7" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -209,6 +208,7 @@
         <option value="$PROJECT_DIR$/Assets/scripts/lightController.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/soundEffectController.cs" />
+        <option value="$PROJECT_DIR$/Assets/newFade.cs" />
       </list>
     </option>
   </component>
@@ -302,7 +302,7 @@
       <workItem from="1540483986560" duration="1000" />
       <workItem from="1540484042790" duration="135000" />
       <workItem from="1540904782788" duration="285000" />
-      <workItem from="1540906500345" duration="943000" />
+      <workItem from="1540906500345" duration="1367000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1538765004195</created>
@@ -528,11 +528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540911897230</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added audio mixer / soundeffect mixer">
+      <created>1540912177453</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1540912177453</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22106000" />
+    <option name="totallyTimeSpent" value="22530000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,7 +615,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added spark particle effect to plants" />
     <MESSAGE value="added flare component to plantlight" />
     <MESSAGE value="made newLightUpPlant prefab and added one to scene; made all plants visible" />
     <MESSAGE value="added free low poly pack (axeyworks)" />
@@ -633,7 +639,8 @@
     <MESSAGE value="added pointlight to particle system" />
     <MESSAGE value="changed water" />
     <MESSAGE value="added audio mixer" />
-    <option name="LAST_COMMIT_MESSAGE" value="added audio mixer" />
+    <MESSAGE value="added audio mixer / soundeffect mixer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added audio mixer / soundeffect mixer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -738,6 +745,13 @@
             <marker date="1539732252380" expanded="true" signature="1200:1343" ph="{...}" />
             <marker date="1539732252380" expanded="true" signature="1379:1501" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/newFade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
