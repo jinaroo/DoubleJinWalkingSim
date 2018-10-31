@@ -4,19 +4,19 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: Leaf_Plant
-    100002: Light
+    100002: Lights
     100004: //RootNode
     400000: Leaf_Plant
-    400002: Light
+    400002: Lights
     400004: //RootNode
     2100000: Leaf_PlantMat
-    2100002: LightMat
+    2100002: LightsMat
     2300000: Leaf_Plant
-    2300002: Light
+    2300002: Lights
     3300000: Leaf_Plant
-    3300002: Light
+    3300002: Lights
     4300000: Leaf_Plant
-    4300002: Light
+    4300002: Lights
   externalObjects: {}
   materials:
     importMaterials: 1
