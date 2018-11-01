@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class audiMixerScript : MonoBehaviour {
+public class audioMixerScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
