@@ -7398,6 +7398,52 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8998fac2f1c7bf147b7faf6902c6ef63, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1001 &375416371
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 21.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 8.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.74018747
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.67240065
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_Name
+      value: ParticleSystem Teleport Warp Gate (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &389775088
 GameObject:
   m_ObjectHideFlags: 0
@@ -8547,6 +8593,52 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 726584ad8d9985b4dba65d6a0bbce96a, type: 3}
+  m_IsPrefabAsset: 0
+--- !u!1001 &507185521
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 20.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -8.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.74018747
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.67240065
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_Name
+      value: ParticleSystem Teleport Warp Gate (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &507433740
 GameObject:
@@ -12344,6 +12436,48 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 432298, guid: a2e7f85e1602c1c4bbdfca08432d5dcc,
     type: 2}
   m_PrefabInternal: {fileID: 654239510}
+--- !u!1001 &926474889
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 9.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 7.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -6.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.74018747
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.67240065
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &930687533
 GameObject:
   m_ObjectHideFlags: 0
@@ -15548,7 +15682,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4772221659178210, guid: 0b248d326a5dde1419c5eb6b0d3412cb, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 114099301725190004, guid: 0b248d326a5dde1419c5eb6b0d3412cb,
         type: 2}
@@ -16453,6 +16587,52 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &1438871816
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 16.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 7.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.74018747
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.67240065
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+      propertyPath: m_Name
+      value: ParticleSystem Teleport Warp Gate (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ad5f7a5f512f5094c8b504ff402653e7, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!43 &1449820900
 Mesh:
   m_ObjectHideFlags: 0
@@ -20982,7 +21162,7 @@ Transform:
   - {fileID: 346018069}
   - {fileID: 420887607}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2122642373
 GameObject:

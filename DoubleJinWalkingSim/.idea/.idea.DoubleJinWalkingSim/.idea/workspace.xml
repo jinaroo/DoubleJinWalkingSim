@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
+    <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="worked on audio mixer and snapshots">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewAudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NewAudioMixer.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SampleScenes/AudioMixers/Car.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SampleScenes/AudioMixers/Car.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Water.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Water.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestGit.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,25 +33,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1208" />
-          <entry key="txt" value="1450" />
+          <entry key="cs" value="1209" />
+          <entry key="txt" value="1487" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1208" />
-          <entry key="PLAIN_TEXT" value="1450" />
+          <entry key="C#" value="1209" />
+          <entry key="PLAIN_TEXT" value="1487" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="9" />
+          <entry key="cs" value="10" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="9" />
+          <entry key="C#" value="10" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -119,7 +119,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/soundEffectController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -135,17 +135,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/scripts/audiMixerScript.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/audioMixerScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="23">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding>
-                <marker date="1541086331707" expanded="true" signature="6:103" ph="..." />
-                <marker date="1541086331707" expanded="true" signature="150:337" ph="{...}" />
-                <marker date="1541086331707" expanded="true" signature="200:207" ph="{...}" />
-                <marker date="1541086331707" expanded="true" signature="253:274" ph="{...}" />
-                <marker date="1541086331707" expanded="true" signature="328:335" ph="{...}" />
+                <marker date="1541087137834" expanded="false" signature="6:103" ph="..." />
+                <marker date="1541087137834" expanded="true" signature="151:338" ph="{...}" />
+                <marker date="1541087137834" expanded="true" signature="201:208" ph="{...}" />
+                <marker date="1541087137834" expanded="true" signature="254:275" ph="{...}" />
+                <marker date="1541087137834" expanded="true" signature="329:336" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -167,7 +167,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/soundEffectController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/audiMixerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/audioMixerScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ArtTest/Colr/Scripts/ScreenColorTransition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/newLightController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/lightController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -182,6 +182,7 @@
         <option value="$PROJECT_DIR$/Assets/scripts/soundEffectController.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/musicVolumeController.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/audiMixerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/audioMixerScript.cs" />
       </list>
     </option>
   </component>
@@ -278,7 +279,7 @@
       <workItem from="1540906500345" duration="2289000" />
       <workItem from="1541037651567" duration="937000" />
       <workItem from="1541038701779" duration="228000" />
-      <workItem from="1541079917991" duration="2045000" />
+      <workItem from="1541079917991" duration="2623000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1538765004195</created>
@@ -539,11 +540,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541082832390</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="worked on audio mixer and snapshots">
+      <created>1541086877776</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1541086877776</updated>
+    </task>
+    <task id="LOCAL-00039" summary="worked on audio mixer and snapshots">
+      <created>1541087147312</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1541087147312</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26662000" />
+    <option name="totallyTimeSpent" value="27240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,7 +571,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="706" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24798061" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -619,7 +633,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added terrain" />
     <MESSAGE value="added invisible walls" />
     <MESSAGE value="added sounds folder and some music" />
     <MESSAGE value="updated sounds folder" />
@@ -644,7 +657,8 @@
     <MESSAGE value="a lot of things" />
     <MESSAGE value="changed cave location" />
     <MESSAGE value="added audio reverb zone" />
-    <option name="LAST_COMMIT_MESSAGE" value="added audio reverb zone" />
+    <MESSAGE value="worked on audio mixer and snapshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="worked on audio mixer and snapshots" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,6 +732,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/audiMixerScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/audioMixerScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <marker date="1541087137834" expanded="false" signature="6:103" ph="..." />
+            <marker date="1541087137834" expanded="true" signature="151:338" ph="{...}" />
+            <marker date="1541087137834" expanded="true" signature="201:208" ph="{...}" />
+            <marker date="1541087137834" expanded="true" signature="254:275" ph="{...}" />
+            <marker date="1541087137834" expanded="true" signature="329:336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/soundEffectController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -728,20 +763,6 @@
             <marker date="1541038821331" expanded="true" signature="216:223" ph="{...}" />
             <marker date="1541038821331" expanded="true" signature="261:381" ph="{...}" />
             <marker date="1541038821331" expanded="true" signature="310:378" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/audiMixerScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <marker date="1541086331707" expanded="true" signature="6:103" ph="..." />
-            <marker date="1541086331707" expanded="true" signature="150:337" ph="{...}" />
-            <marker date="1541086331707" expanded="true" signature="200:207" ph="{...}" />
-            <marker date="1541086331707" expanded="true" signature="253:274" ph="{...}" />
-            <marker date="1541086331707" expanded="true" signature="328:335" ph="{...}" />
           </folding>
         </state>
       </provider>
