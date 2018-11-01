@@ -13190,7 +13190,7 @@ AudioListener:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1003058286}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1003058288
 Camera:
   m_ObjectHideFlags: 0
@@ -14662,11 +14662,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 34f4c06fe7a1f468887c48f8ea4450b6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -21123,7 +21123,7 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2122642373}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 34f4c06fe7a1f468887c48f8ea4450b6, type: 3}
@@ -21218,7 +21218,7 @@ AudioListener:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2122642373}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!4 &2125505772 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4220503066141506, guid: 6b58c759f366544e8b10f349c75b8e37,

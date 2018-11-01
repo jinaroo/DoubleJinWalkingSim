@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Water.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Water.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestGit.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestTerrian.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestTerrian.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/soundEffectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/soundEffectController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +30,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="1143" />
-          <entry key="txt" value="1406" />
+          <entry key="txt" value="1427" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="1143" />
-          <entry key="PLAIN_TEXT" value="1406" />
+          <entry key="PLAIN_TEXT" value="1427" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -265,7 +254,7 @@
       <workItem from="1540906500345" duration="2289000" />
       <workItem from="1541037651567" duration="937000" />
       <workItem from="1541038701779" duration="228000" />
-      <workItem from="1541079917991" duration="657000" />
+      <workItem from="1541079917991" duration="989000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1538765004195</created>
@@ -512,11 +501,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540915437161</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="changed cave location">
+      <created>1541081616935</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1541081616935</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25274000" />
+    <option name="totallyTimeSpent" value="25606000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,7 +587,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added free low poly pack (axeyworks)" />
     <MESSAGE value="fixed plant prefab" />
     <MESSAGE value="added terrain" />
     <MESSAGE value="added invisible walls" />
@@ -616,7 +611,8 @@
     <MESSAGE value="added audio mixer / soundeffect mixer" />
     <MESSAGE value="added post processing layer to player camera" />
     <MESSAGE value="a lot of things" />
-    <option name="LAST_COMMIT_MESSAGE" value="a lot of things" />
+    <MESSAGE value="changed cave location" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed cave location" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
