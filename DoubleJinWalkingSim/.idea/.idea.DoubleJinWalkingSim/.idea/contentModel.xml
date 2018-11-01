@@ -415,6 +415,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="audiMixerScript.cs" t="Include" />
           <e p="lightController.cs" t="Include" />
           <e p="newLightController.cs" t="Include" />
           <e p="soundEffectController.cs" t="Include" />
