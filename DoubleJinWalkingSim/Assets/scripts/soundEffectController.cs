@@ -13,13 +13,12 @@ public class soundEffectController : MonoBehaviour
 	}
 
 	void OnTriggerEnter(Collider other)
-	{
+	{	
 		if (isFirst && other.CompareTag("Player"))
 		{
 			isFirst = false;
 			musicNote.Play();
 			isFirst = true;
 		}
-		
 	}
 }
