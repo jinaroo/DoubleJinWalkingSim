@@ -1068,8 +1068,8 @@ AudioReverbZone:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 155567590}
   m_Enabled: 1
-  m_MinDistance: 15
-  m_MaxDistance: 20
+  m_MinDistance: 30
+  m_MaxDistance: 35
   m_ReverbPreset: 27
   m_Room: -1901
   m_RoomHF: -300
@@ -1091,8 +1091,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 155567590}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 1, z: -34}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 128.3, y: 32, z: -36.8}
+  m_LocalScale: {x: 2.1314, y: 1, z: 1.6634}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
@@ -15487,6 +15487,9 @@ GameObject:
   - component: {fileID: 1138643618}
   - component: {fileID: 1138643626}
   - component: {fileID: 1138643625}
+  - component: {fileID: 1138643627}
+  - component: {fileID: 1138643629}
+  - component: {fileID: 1138643628}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -15886,6 +15889,49 @@ MonoBehaviour:
   dx11BokehTexture: {fileID: 0}
   dx11BokehScale: 1.2
   dx11BokehIntensity: 2.5
+--- !u!169 &1138643627
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1138643616}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.018181818
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!168 &1138643628
+AudioEchoFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1138643616}
+  m_Enabled: 1
+  m_Delay: 100
+  m_DecayRatio: 0.5
+  m_WetMix: 1
+  m_DryMix: 1
+--- !u!170 &1138643629
+AudioDistortionFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1138643616}
+  m_Enabled: 1
+  m_DistortionLevel: 0.1
 --- !u!1 &1144720017
 GameObject:
   m_ObjectHideFlags: 0
@@ -15912,7 +15958,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243483076336224990, guid: 0a3a621d9d01f4be786e43c9ba3fe995,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 293f4558caa1c4222ba7af9d22cb369b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 34f4c06fe7a1f468887c48f8ea4450b6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -21216,6 +21262,59 @@ Mesh:
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
   m_MeshOptimized: 0
+--- !u!1 &1837488592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1837488595}
+  - component: {fileID: 1837488594}
+  - component: {fileID: 1837488593}
+  m_Layer: 0
+  m_Name: caveSoundTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1837488593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1837488592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6faf5f818578b47d7be9f882263737a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1837488594
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1837488592}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1837488595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1837488592}
+  m_LocalRotation: {x: -0.6613696, y: -0.6485568, z: 0.2764217, w: 0.25603774}
+  m_LocalPosition: {x: 125.2, y: 28.6, z: -36.8}
+  m_LocalScale: {x: 22.17663, y: 37.516323, z: 24.75713}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 1.139, y: -135.74301, z: 91.58401}
 --- !u!1001 &1847814327
 Prefab:
   m_ObjectHideFlags: 0
@@ -23095,7 +23194,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2122642373}
   m_LocalRotation: {x: -0, y: -0.835772, z: -0, w: -0.54907674}
-  m_LocalPosition: {x: 46.43, y: 7.23, z: -2.88}
+  m_LocalPosition: {x: 93.1, y: 23.39, z: -2.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1138643623}

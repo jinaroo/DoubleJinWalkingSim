@@ -8,7 +8,7 @@ AnimatorController:
   m_Name: blackFade
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: fadeOut
+  - m_Name: FadeOut
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -35,7 +35,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: fadeOut
+    m_ConditionEvent: FadeOut
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102499128230295812}
@@ -112,7 +112,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102272850220393874}
-    m_Position: {x: 204, y: 0, z: 0}
+    m_Position: {x: 240, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102499128230295812}
     m_Position: {x: 240, y: 132, z: 0}

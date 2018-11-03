@@ -419,6 +419,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="audioMixerScript.cs" t="Include" />
+          <e p="caveSoundController.cs" t="Include" />
           <e p="endSceneTrigger.cs" t="Include" />
           <e p="gameStart.cs" t="Include" />
           <e p="lightController.cs" t="Include" />

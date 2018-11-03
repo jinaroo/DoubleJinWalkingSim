@@ -14,7 +14,7 @@ public class screenFadeController : MonoBehaviour
 		currentScene = SceneManager.GetActiveScene().buildIndex;
 		
 		//to change from title screen to game level
-		if (currentScene == 0 && Input.GetKeyDown(KeyCode.Return))
+		if (currentScene == 0 && Input.GetKeyDown(KeyCode.Space))
 		{
 			fadeToLevel(1); //should fade to level index 1
 			//fadeToNextLevel(); //fades to next level; but maybe don't use this
@@ -25,7 +25,7 @@ public class screenFadeController : MonoBehaviour
 	public void fadeToLevel (int levelIndex) //find level index in build settings
 	{
 		levelToLoad = levelIndex;
-		animator.SetTrigger("fadeOut"); //should fade out
+		animator.SetTrigger("FadeOut"); //should fade out
 	}
 
 	//when fade finishes, load new level
@@ -36,9 +36,9 @@ public class screenFadeController : MonoBehaviour
 	}
 	
 	//below function changes level based on index level; may not need
-	public void fadeToNextLevel()
-	{
+	//public void fadeToNextLevel()
+	//{
 		//gets index of current scene plus one to get next scene in index
-		fadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
-	}
+	//	fadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
+	//}
 }
