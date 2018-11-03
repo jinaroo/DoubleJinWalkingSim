@@ -4,21 +4,15 @@ using UnityEngine;
 
 public class soundEffectController : MonoBehaviour
 {
-	public AudioSource musicNote;
+	public AudioSource soundEffect;
 	private bool isFirst = true;
 
-	private void Start()
-	{
-
-	}
-
 	void OnTriggerEnter(Collider other)
-	{	
-		if (isFirst && other.CompareTag("Player"))
-		{
-			isFirst = false;
-			musicNote.Play();
-			isFirst = true;
-		}
-	}
+     	{	
+     		if (isFirst && other.CompareTag("Player"))
+     		{
+     			isFirst = false;
+     			soundEffect.Play();
+     		}
+     	}
 }
