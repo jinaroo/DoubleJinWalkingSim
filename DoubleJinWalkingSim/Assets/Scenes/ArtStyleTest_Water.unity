@@ -14990,7 +14990,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 21.542002, y: -70.851006, z: 70.07101}
 --- !u!1 &1090624369
 GameObject:
@@ -21845,7 +21845,7 @@ Prefab:
     - target: {fileID: 224744194675258848, guid: 4f024cb9219d54b2c8b6d2b79d381088,
         type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 224744194675258848, guid: 4f024cb9219d54b2c8b6d2b79d381088,
         type: 2}
@@ -21900,6 +21900,59 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f024cb9219d54b2c8b6d2b79d381088, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1988995351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1988995353}
+  - component: {fileID: 1988995352}
+  - component: {fileID: 1988995354}
+  m_Layer: 0
+  m_Name: endSceneTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1988995352
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1988995351}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1988995353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1988995351}
+  m_LocalRotation: {x: -0.519212, y: -0.51451534, z: 0.4942042, w: 0.47059026}
+  m_LocalPosition: {x: 130.04, y: 20.26, z: -40.92}
+  m_LocalScale: {x: 3.154156, y: 4.4462, z: 4.1492}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 1.139, y: -93.935005, z: 91.58401}
+--- !u!114 &1988995354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1988995351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb41edac40cac47f08a4180d6ba3003c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2000878564 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4220503066141506, guid: 6b58c759f366544e8b10f349c75b8e37,

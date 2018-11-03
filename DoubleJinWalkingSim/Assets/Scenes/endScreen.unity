@@ -341,7 +341,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1091249590}
-  m_Text: blank
+  m_Text: press enter to play again
   m_OffsetZ: 0
   m_CharacterSize: 0.1
   m_LineSpacing: 1

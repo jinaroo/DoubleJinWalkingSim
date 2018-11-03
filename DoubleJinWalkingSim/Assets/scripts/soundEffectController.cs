@@ -8,11 +8,11 @@ public class soundEffectController : MonoBehaviour
 	private bool isFirst = true;
 
 	void OnTriggerEnter(Collider other)
-	{	
-		if (isFirst && other.CompareTag("Player"))
-		{
-			isFirst = false;
-			soundEffect.Play();
-		}
-	}
+     	{	
+     		if (isFirst && other.CompareTag("Player"))
+     		{
+     			isFirst = false;
+     			soundEffect.Play();
+     		}
+     	}
 }
