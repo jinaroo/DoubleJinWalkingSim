@@ -343,7 +343,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1091249590}
-  m_Text: (press enter to start)
+  m_Text: (press space to start)
   m_OffsetZ: 0
   m_CharacterSize: 0.1
   m_LineSpacing: 1
