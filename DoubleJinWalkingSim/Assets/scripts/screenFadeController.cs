@@ -35,7 +35,7 @@ public class screenFadeController : MonoBehaviour
 		SceneManager.LoadScene(levelToLoad);
 	}
 	
-	//below function changes level based on index level
+	//below function changes level based on index level; may not need
 	public void fadeToNextLevel()
 	{
 		//gets index of current scene plus one to get next scene in index

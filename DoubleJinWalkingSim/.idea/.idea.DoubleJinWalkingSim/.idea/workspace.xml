@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Water.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Water.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/soundEffectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/soundEffectController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/endScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/endScreen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/titleScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/titleScreen.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,13 +31,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="2954" />
-          <entry key="txt" value="1764" />
+          <entry key="txt" value="1803" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="2954" />
-          <entry key="PLAIN_TEXT" value="1764" />
+          <entry key="PLAIN_TEXT" value="1803" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -145,11 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/screenFadeController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="-40">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
                 <marker date="1541212319877" expanded="false" signature="6:53" ph="..." />
                 <marker date="1541212319877" expanded="true" signature="104:1201" ph="{...}" />
@@ -164,7 +162,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/endSceneTrigger.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -279,9 +277,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1634" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1176" />
     <option name="height" value="707" />
   </component>
   <component name="ProjectView">
@@ -368,7 +366,7 @@
       <workItem from="1541038701779" duration="228000" />
       <workItem from="1541079917991" duration="2623000" />
       <workItem from="1541199644604" duration="1301000" />
-      <workItem from="1541253318363" duration="1087000" />
+      <workItem from="1541253318363" duration="1352000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1538765004195</created>
@@ -678,11 +676,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541253815317</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="created new script to trigger endScreen">
+      <created>1541254753514</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1541254753514</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35300000" />
+    <option name="totallyTimeSpent" value="35565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,7 +763,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed small problem with flare particle" />
     <MESSAGE value="few small changes with walls; added mountain" />
     <MESSAGE value="deleted terrain 1 and 2" />
     <MESSAGE value="added new folder in sounds called musicboxtones and added soundeffects in hierarchy" />
@@ -783,7 +787,8 @@
     <MESSAGE value="fixed a tiny sound effect problem" />
     <MESSAGE value="small change to physics and rigidbody settings" />
     <MESSAGE value="created endScreen scene" />
-    <option name="LAST_COMMIT_MESSAGE" value="created endScreen scene" />
+    <MESSAGE value="created new script to trigger endScreen" />
+    <option name="LAST_COMMIT_MESSAGE" value="created new script to trigger endScreen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -898,23 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/screenFadeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <marker date="1541212319877" expanded="false" signature="6:53" ph="..." />
-            <marker date="1541212319877" expanded="true" signature="104:1201" ph="{...}" />
-            <marker date="1541212319877" expanded="true" signature="286:591" ph="{...}" />
-            <marker date="1541212319877" expanded="true" signature="458:588" ph="{...}" />
-            <marker date="1541212319877" expanded="true" signature="691:777" ph="{...}" />
-            <marker date="1541212319877" expanded="true" signature="780:903" ph="/* when fade finishes, load new level ... */" />
-            <marker date="1541212319877" expanded="true" signature="933:978" ph="{...}" />
-            <marker date="1541212319877" expanded="true" signature="1064:1199" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/lightController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -941,6 +929,23 @@
             <marker date="1541254646592" expanded="true" signature="159:365" ph="{...}" />
             <marker date="1541254646592" expanded="true" signature="206:363" ph="{...}" />
             <marker date="1541254646592" expanded="true" signature="244:360" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/screenFadeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <marker date="1541212319877" expanded="false" signature="6:53" ph="..." />
+            <marker date="1541212319877" expanded="true" signature="104:1201" ph="{...}" />
+            <marker date="1541212319877" expanded="true" signature="286:591" ph="{...}" />
+            <marker date="1541212319877" expanded="true" signature="458:588" ph="{...}" />
+            <marker date="1541212319877" expanded="true" signature="691:777" ph="{...}" />
+            <marker date="1541212319877" expanded="true" signature="780:903" ph="/* when fade finishes, load new level ... */" />
+            <marker date="1541212319877" expanded="true" signature="933:978" ph="{...}" />
+            <marker date="1541212319877" expanded="true" signature="1064:1199" ph="{...}" />
           </folding>
         </state>
       </provider>
