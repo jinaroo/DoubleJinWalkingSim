@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class soundEffectController : MonoBehaviour
-{
-	public AudioSource soundEffect;
+public class musicNoteController : MonoBehaviour {
+
+	public AudioSource musicNote;
 	private bool isFirst = true;
 
 	void OnTriggerEnter(Collider other)
@@ -12,7 +12,8 @@ public class soundEffectController : MonoBehaviour
 		if (isFirst && other.CompareTag("Player"))
 		{
 			isFirst = false;
-			soundEffect.Play();
+			musicNote.Play();
+			isFirst = true;
 		}
 	}
 }

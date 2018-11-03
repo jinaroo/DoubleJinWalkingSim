@@ -19,12 +19,6 @@ public class screenFadeController : MonoBehaviour
 			fadeToLevel(1); //should fade to level index 1
 			//fadeToNextLevel(); //fades to next level; but maybe don't use this
 		}
-		
-		//to change from game level to end screen?
-		//if (currentScene == 1 && Input.GetKeyDown(KeyCode.Return))
-		//{
-		//	fadeToLevel(2);
-		//}
 	}
 
 	//fades into level

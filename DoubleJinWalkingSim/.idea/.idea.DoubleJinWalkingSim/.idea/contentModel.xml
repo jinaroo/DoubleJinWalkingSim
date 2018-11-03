@@ -421,6 +421,7 @@
           <e p="audioMixerScript.cs" t="Include" />
           <e p="gameStart.cs" t="Include" />
           <e p="lightController.cs" t="Include" />
+          <e p="musicNoteController.cs" t="Include" />
           <e p="newLightController.cs" t="Include" />
           <e p="screenFadeController.cs" t="Include" />
           <e p="ScreenLightFlash.cs" t="Include" />
