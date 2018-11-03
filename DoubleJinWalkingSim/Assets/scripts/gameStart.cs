@@ -13,6 +13,6 @@ public class gameStart : MonoBehaviour {
 	void Update () {
 		//to start game
 		if (Input.GetKeyDown (KeyCode.Space))
-			UnityEngine.SceneManagement.SceneManager.LoadScene ("ArtStyleTest_Water");
+			UnityEngine.SceneManagement.SceneManager.LoadScene ("ArtStyleTest_Seperate");
 	}
 }
