@@ -9,6 +9,8 @@ public class caveSoundController : MonoBehaviour
 	private AudioDistortionFilter rbDistortion;
 	private AudioEchoFilter rbEcho;
 
+	private bool inCave;
+
 	void Start()
 	{
 		rbLowPass = GameObject.Find("MainCamera").GetComponent<AudioLowPassFilter>();
@@ -19,11 +21,16 @@ public class caveSoundController : MonoBehaviour
 		rbDistortion.enabled = false;
 		rbEcho.enabled = false;
 
+		inCave = false;
+
 	}
 	
 	void Update()
 	{
-		//GetComponent<AudioListener>().
+		//if (inCave)
+		//{
+		//	rbLowPass.cutoffFrequency -= 100;
+		//}
 	}
 	
 	private void OnTriggerEnter(Collider other)
@@ -31,12 +38,11 @@ public class caveSoundController : MonoBehaviour
 		if (other.CompareTag("Player"))
 		{
 			Debug.Log("Player is in cave!");
+			inCave = true;
 			
 			rbLowPass.enabled = true;
 			rbDistortion.enabled = true;
 			rbEcho.enabled = true;
-			
-			//rbLowPass.cutoffFrequency = 400;
 		}
 	}
 
@@ -45,6 +51,8 @@ public class caveSoundController : MonoBehaviour
 		if (other.CompareTag("Player"))
 		{
 			Debug.Log("Player is not in cave.");
+			inCave = false;
+			
 			rbLowPass.enabled = false;
 			rbDistortion.enabled = false;
 			rbEcho.enabled = false;
