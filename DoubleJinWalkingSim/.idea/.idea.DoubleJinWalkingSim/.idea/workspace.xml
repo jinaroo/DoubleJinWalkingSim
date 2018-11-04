@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bb0fa35f-26b8-4f3d-80b7-f2ecf8c64443" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoubleJinWalkingSim/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Seperate.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ArtStyleTest_Seperate.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,13 +32,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="4216" />
-          <entry key="txt" value="2107" />
+          <entry key="txt" value="2167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="4216" />
-          <entry key="PLAIN_TEXT" value="2107" />
+          <entry key="PLAIN_TEXT" value="2167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -400,21 +402,7 @@
       <workItem from="1541199644604" duration="1301000" />
       <workItem from="1541253318363" duration="7332000" />
       <workItem from="1541289442131" duration="1891000" />
-      <workItem from="1541308011237" duration="610000" />
-    </task>
-    <task id="LOCAL-00005" summary="added glowing flower prefab and deleted lightCollider script">
-      <created>1539270546032</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1539270546032</updated>
-    </task>
-    <task id="LOCAL-00006" summary="changed hierarchy so that plants are all grouped together">
-      <created>1539271374877</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1539271374877</updated>
+      <workItem from="1541308011237" duration="1355000" />
     </task>
     <task id="LOCAL-00007" summary="added tree animation">
       <created>1539271912844</created>
@@ -745,11 +733,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541309128784</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="edited flower/music box colliders">
+      <created>1541309794472</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1541309794472</updated>
+    </task>
+    <task id="LOCAL-00055" summary="added large flower patch">
+      <created>1541311367211</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1541311367212</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46857000" />
+    <option name="totallyTimeSpent" value="47602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -824,8 +826,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added musicbox colliders" />
-    <MESSAGE value="fixed lighting in trees" />
     <MESSAGE value="fixed firefly particle system" />
     <MESSAGE value="added pointlight to particle system" />
     <MESSAGE value="changed water" />
@@ -849,7 +849,9 @@
     <MESSAGE value="fixed endscreen trigger and some tiny stuff" />
     <MESSAGE value="added crystals and mushrooms to cave" />
     <MESSAGE value="edited hierarchy and fixed title/end" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited hierarchy and fixed title/end" />
+    <MESSAGE value="edited flower/music box colliders" />
+    <MESSAGE value="added large flower patch" />
+    <option name="LAST_COMMIT_MESSAGE" value="added large flower patch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
