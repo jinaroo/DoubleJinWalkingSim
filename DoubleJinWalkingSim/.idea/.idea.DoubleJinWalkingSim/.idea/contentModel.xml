@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_DoubleJinWalkingSim.1925572876.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\Jin\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Jin\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_DoubleJinWalkingSim.-827659150.00" t="ExcludeRecursive" />
+    <e p="D:\unity\work\DoubleJinWalkingSim\DoubleJinWalkingSim" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -159,6 +159,37 @@
               <e p="ScreenColorTransition.shader" t="Include" />
             </e>
           </e>
+          <e p="KinoGlitch" t="Include">
+            <e p="Editor" t="Include">
+              <e p="PackageTool.cs" t="Include" />
+            </e>
+            <e p="Kino" t="Include">
+              <e p="Glitch" t="Include">
+                <e p="AnalogGlitch.cs" t="Include" />
+                <e p="DigitalGlitch.cs" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="AnalogGlitchEditor.cs" t="Include" />
+                  <e p="DigitalGlitchEditor.cs" t="Include" />
+                </e>
+                <e p="Shader" t="Include">
+                  <e p="AnalogGlitch.shader" t="Include" />
+                  <e p="DigitalGlitch.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Reaktion" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Utility" t="Include">
+                  <e p="ConstantMotionEditor.cs" t="Include" />
+                  <e p="JitterMotionEditor.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Utility" t="Include">
+                <e p="ConstantMotion.cs" t="Include" />
+                <e p="JitterMotion.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="StylizedWater" t="Include">
             <e p="_Demo" t="Include">
               <e p="OrbitCamera.cs" t="Include" />
@@ -215,6 +246,7 @@
         <e p="Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set" t="Include">
           <e p="documentation - Low-Poly_Sci-Fi_Desert_Units_Set.txt" t="Include" />
         </e>
+        <e p="CaveGlitchControl.cs" t="Include" />
         <e p="EffectExamples" t="Include">
           <e p="Editor" t="Include">
             <e p="PackageManagerAssembly" t="Include">
@@ -252,6 +284,7 @@
         <e p="Free Low Poly Toon Nature" t="Include">
           <e p="Readme.txt" t="Include" />
         </e>
+        <e p="GameManager.cs" t="Include" />
         <e p="ProCore" t="Include">
           <e p="ProBuilder" t="Include">
             <e p="About" t="Include">

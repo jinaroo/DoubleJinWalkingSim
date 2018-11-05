@@ -33,6 +33,9 @@ public class newLightController : MonoBehaviour
 			// Then need to activate the plantlightChange material glow
 			startGlow = true;
 			lightSparks.SetActive(true);
+			
+			// Need to glitch screen for x seconds
+			StartCoroutine(startGlitching(GameManager.GM.planGlitchTime));
 		}
 	}
 
@@ -43,6 +46,13 @@ public class newLightController : MonoBehaviour
 			Debug.Log("Player is not in trigger!");
 			//plantLight.SetActive(false);
 		}
+	}
+
+	IEnumerator startGlitching(float time)
+	{
+		GameManager.GM.changeCameraGlitch();
+		yield return new WaitForSeconds(time);
+		GameManager.GM.resetCameraGlitch();
 	}
 
 	// Update is called once per frame
