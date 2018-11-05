@@ -470,6 +470,7 @@
           <e p="ScreenLightFlash.cs" t="Include" />
           <e p="ScreenLightFlash_1.cs" t="Include" />
           <e p="soundEffectController.cs" t="Include" />
+          <e p="turnOffGame.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
