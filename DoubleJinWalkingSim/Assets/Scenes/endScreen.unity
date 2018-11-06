@@ -146,7 +146,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.25490198, g: 0.18039216, b: 0.33333334, a: 0}
+  m_BackGroundColor: {r: 0.1477942, g: 0.0999911, b: 0.1981132, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -429,6 +429,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dfff1c7902ad4595ba45672a69a84dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScanLineJitter: 0
+  VerticalJump: 0
+  ColorDrift: 0
+  time2Glitch: 0
+  timeFromGlitch2Load: 0
 --- !u!4 &1075634740
 Transform:
   m_ObjectHideFlags: 0
