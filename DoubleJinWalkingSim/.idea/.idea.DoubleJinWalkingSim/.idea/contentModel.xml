@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_DoubleJinWalkingSim.1925572876.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\Jin\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Jin\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_DoubleJinWalkingSim.-827659150.00" t="ExcludeRecursive" />
+    <e p="D:\unity\work\DoubleJinWalkingSim\DoubleJinWalkingSim" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -470,7 +470,6 @@
           <e p="ScreenLightFlash.cs" t="Include" />
           <e p="ScreenLightFlash_1.cs" t="Include" />
           <e p="soundEffectController.cs" t="Include" />
-          <e p="turnOffGame.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
